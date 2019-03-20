@@ -51,7 +51,7 @@ function clear_learner_activity(){
 	sqlite3 $database_path "vacuum"
 
 
-	echo "${greem}Done!${reset}"
+	echo "${green}Done!${reset}"
 }
 
 clear_learner_activity
